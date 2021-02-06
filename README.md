@@ -25,6 +25,8 @@ git clone https://github.com/electron/electron-quick-start
 cd electron-quick-start
 # Install dependencies
 npm install
+# generate
+npm run prisma:generate
 # Run the app
 npm start
 ```
@@ -39,7 +41,7 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 - [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
 - [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
 - [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
-
+- [how to use prisma](https://stackoverflow.com/questions/64088437/how-to-use-prisma-with-electron)
 ## License
 
 [CC0 1.0 (Public Domain)](LICENSE.md)
