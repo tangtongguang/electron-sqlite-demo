@@ -1,7 +1,40 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
+const sqlite3 = require('sqlite3');
+// var db = new sqlite3.Database(path.join(__dirname,'file2.db'));
+const { PrismaClient } = require('./main/database/generated/client')
 
+const prisma = new PrismaClient()
+
+// A `main` function so that you can use async/await
+async function main() {
+  const allUsers = await prisma.products.findMany()
+  console.log(allUsers)
+  // ... you will write your Prisma Client queries here
+}
+
+main()
+  .catch(e => {
+    throw e
+  })
+  .finally(async () => {
+    await prisma.$disconnect()
+  })
+
+// db.serialize(function () {
+//   db.run("CREATE TABLE Products (name, barcode, quantity)");
+
+//   db.run("INSERT INTO Products VALUES (?, ?, ?)", ['product001', 'xxxxx', 20]);
+//   db.run("INSERT INTO Products VALUES (?, ?, ?)", ['product002', 'xxxxx', 40]);
+//   db.run("INSERT INTO Products VALUES (?, ?, ?)", ['product003', 'xxxxx', 60]);
+
+//   db.each("SELECT * FROM Products", function (err, row) {
+//     console.log(row);
+//   });
+// });
+
+// db.close()
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
