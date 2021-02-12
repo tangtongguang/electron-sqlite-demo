@@ -104,10 +104,10 @@
     "@types/bson" "*"
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^14.14.25", "@types/node@^14.6.2":
-  version "14.14.25"
-  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.14.25.tgz?cache=0&sync_timestamp=1612430037346&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-14.14.25.tgz#15967a7b577ff81383f9b888aa6705d43fbbae93"
-  integrity sha1-FZZ6e1d/+BOD+biIqmcF1D+7rpM=
+"@types/node@*", "@types/node@^14.14.27", "@types/node@^14.6.2":
+  version "14.14.27"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.27.tgz#c7127f8da0498993e13b1a42faf1303d3110d2f2"
+  integrity sha512-Ecfmo4YDQPwuqTCl1yBxLV5ihKfRlkBmzUEDcfIRvDxOTGQEeikr317Ln7Gcv0tjA8dVgKI3rniqW2G1OyKDng==
 
 "@types/responselike@*", "@types/responselike@^1.0.0":
   version "1.0.0"
