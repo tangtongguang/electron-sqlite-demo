@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@prisma/client": "^2.16.0",
-    "mongoose": "^5.11.15",
+    "mongoose": "^5.11.16",
     "sqlite3": "^5.0.1"
   }
 }
