@@ -592,10 +592,10 @@ electron-rebuild@^2.3.4:
     tar "^6.0.5"
     yargs "^16.0.0"
 
-electron@^12.0.0-beta.19:
-  version "12.0.0-beta.22"
-  resolved "https://registry.npm.taobao.org/electron/download/electron-12.0.0-beta.22.tgz#6581bcc522392e547e84a6e5f629d972f82e96df"
-  integrity sha1-ZYG8xSI5LlR+hKbl9inZcvgult8=
+electron@^12.0.0-beta.26:
+  version "12.0.0-beta.26"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-12.0.0-beta.26.tgz#ffeba6d386ed15adb86d3444427ca7c5ce8efedd"
+  integrity sha512-gdlWPYCymYABZ8GbKq4V3bxohe+URfc1wFQohOpK+kgMJZz1uL6hI0yFa9uB2s91vKu6hyHYt/FIzP8260vK3g==
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^14.6.2"
