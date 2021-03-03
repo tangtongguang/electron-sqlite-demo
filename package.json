@@ -24,7 +24,7 @@
     "@types/node": "^14.14.30",
     "electron": "^12.0.0-beta.26",
     "electron-rebuild": "^2.3.5",
-    "prisma": "^2.16.0",
+    "prisma": "^2.18.0",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
   },
