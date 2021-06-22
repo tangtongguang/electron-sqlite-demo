@@ -22,7 +22,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "@types/node": "^14.14.30",
-    "electron": "^12.0.0-beta.26",
+    "electron": "^13.1.3",
     "electron-rebuild": "^2.3.5",
     "prisma": "^2.16.0",
     "ts-node": "^9.1.1",
